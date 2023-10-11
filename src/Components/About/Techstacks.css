@@ -1,0 +1,117 @@
+.main {
+  margin-top: 4em;
+}
+
+
+
+.techsection {
+  width: 100%;
+  text-align: center;
+  background-color: var(--clr-bg);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 0.75rem;
+  height: 50vh;
+  margin-top: 3rem;
+  /* max-height: 400px; */
+}
+
+.techsection > div {
+  width: 11%;
+  height: 16vh;
+  max-height: 140px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  z-index: 1;
+  border-radius: 20px;
+  margin: 2.8%;
+  float: left;
+  border: 2px solid var(--clr-lg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease 0s;
+  
+ 
+}
+.techsection > div:hover {
+  background-color: var(--clr-bg);
+  overflow: hidden;
+  transform: scale(1.08);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border: 1px solid var(--clr-primary);
+}
+
+.techsection > div > svg {
+  /* height: 50%;
+  width: 50%; */
+  font-size: 8vh;
+  color: var(--clr-primary);
+}
+.techsection > div > h5 {
+  position: relative;
+  top: 8px;
+  background-color: transparent;
+}
+
+
+
+
+
+.techsection .react{
+  color: #00d8ff;
+}
+
+.techsection .javascript{
+  color: #F0DB4F;
+  background-color: #323330;
+}
+
+.techsection .html{
+  color: #F06529;
+}
+.techsection .css{
+  color: #264de4;
+  
+}
+
+.techsection .node{
+  color: #68a063;
+}
+
+.techsection .mongo{
+  color: #049024;
+}
+
+.techsection .tailwind{
+  color: #0f9ee1;
+}
+.techsection .bootstrap{
+  color: #861490;
+}
+
+.techsection .sass{
+  color: #cc6699;
+}
+
+.techsection .material{
+  color: #007aff;
+}
+
+.techsection .github{
+  color:#0a2aa9 ;
+}
+
+@media (max-width: 600px) {
+  .techsection {
+    height: 124vh;
+    box-shadow: none;
+  }
+  .techsection > div {
+    width: 40%;
+   
+    height: 18vh;
+    
+    margin: 0 5% 3% 5%;
+    
+  }
+}

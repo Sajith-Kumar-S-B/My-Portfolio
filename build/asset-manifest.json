@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e7510bbd.css",
+    "main.js": "/static/js/main.c2700931.js",
+    "static/media/d8f43445-c6df-4fc7-a919-f89cfdf1ae0c.gif": "/static/media/d8f43445-c6df-4fc7-a919-f89cfdf1ae0c.f5fb876806ba63d00356.gif",
+    "static/media/Netflix Clone - 127.0.0.1.png": "/static/media/Netflix Clone - 127.0.0.1.a31d291d0e4970be3963.png",
+    "static/media/youtube-clone-react-sajith.netlify.app.png": "/static/media/youtube-clone-react-sajith.netlify.app.5383b55bc5ff91bddd60.png",
+    "static/media/FireShot Capture 146 - Candy Saga - candy-crush-game-sajith.netlify.app.png": "/static/media/FireShot Capture 146 - Candy Saga - candy-crush-game-sajith.netlify.app.1a9e0c3808d2dbb633f9.png",
+    "static/media/FireShot Capture 149 - Expense Tracker - expense-tracker-sajith.netlify.app.png": "/static/media/FireShot Capture 149 - Expense Tracker - expense-tracker-sajith.netlify.app.1c48a00705a41b0ac4aa.png",
+    "static/media/Project Timeline Manager - timeflow-task-manager.netlify.app.png": "/static/media/Project Timeline Manager - timeflow-task-manager.netlify.app.29f510a376009f1af7ae.png",
+    "static/media/1686751425573-01.jpeg": "/static/media/1686751425573-01.0a2be1553c61fe7908f8.jpeg",
+    "static/media/photomdeds.jpg": "/static/media/photomdeds.b4b856e40fdaafd780d3.jpg",
+    "static/media/S-logo.png": "/static/media/S-logo.95c79f61171324a184ea.png",
+    "index.html": "/index.html",
+    "main.e7510bbd.css.map": "/static/css/main.e7510bbd.css.map",
+    "main.c2700931.js.map": "/static/js/main.c2700931.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7510bbd.css",
+    "static/js/main.c2700931.js"
+  ]
+}
