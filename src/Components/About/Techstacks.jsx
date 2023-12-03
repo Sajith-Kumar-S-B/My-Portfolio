@@ -76,6 +76,7 @@ export const Techstacks = () => {
             <VscGithub className="github" />
             <h5>Github</h5>
           </div>
+          
         </div>
       </div>
     </>

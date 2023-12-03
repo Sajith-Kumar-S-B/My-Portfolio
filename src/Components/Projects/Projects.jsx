@@ -14,6 +14,7 @@ import {
   SiJavascript,
   SiMongodb,
   SiNodedotjs,
+  SiSass
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -23,6 +24,7 @@ import weatherApp from '../../assets/d8f43445-c6df-4fc7-a919-f89cfdf1ae0c.gif'
 import budgetApp from '../../assets/FireShot Capture 149 - Expense Tracker - expense-tracker-sajith.netlify.app.png'
 import timelineManager from '../../assets/Project Timeline Manager - timeflow-task-manager.netlify.app.png'
 import netflixClone from '../../assets/Netflix Clone - 127.0.0.1.png'
+import reactQuiz from '../../assets//react-quiz.png'
 import { IoLogoJavascript } from "react-icons/io";
 export const Projects = () => {
   return (
@@ -30,6 +32,53 @@ export const Projects = () => {
       <div className="section">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
+        <div className="projects_container" data-aos="zoom-out">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src={reactQuiz}
+                    alt="quiz-app"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Ouiz App</h2>
+                <p>
+                A Quix app buit with ReactJs. Dynamic rendering of questions and options.Use lifelines, hints. Real-time scoring based on user-selected options. Responsive design with dark and light modes.
+             
+                </p>
+                <div>
+                  <SiNodedotjs />
+                  <SiTailwindcss/>
+                  <FaReact />
+                  <SiMaterialui />
+                  <DiCss3 />
+                  <SiSass/>
+                </div>
+                <div>
+                  <a
+                    href="https://store-rockstargames.vercel.app"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      Live Link
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Sajith-Kumar-S-B/youtube-clone-react.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="projects_container" data-aos="zoom-out">
             <div className="project">
               <div className="project_videocontainer">

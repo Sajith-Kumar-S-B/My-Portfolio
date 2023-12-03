@@ -27,7 +27,7 @@ export const Introduction = () => {
                   {" "}
                   Kollam, Kerala (India)
                 </span>
-                . I have completed my graduation in Bsc (BioChemisry)
+                . I have completed my graduation
                 from{" "}
                 <span className="different">
                   Kerala University, Kerala (KL)

@@ -205,7 +205,7 @@ z-index: 1;
   top: -0.75rem;
   left: 1.25rem;
   font-size: small;
-  padding: .25rem;
+  padding:.25rem;
   z-index: 10;
 }
 
@@ -250,6 +250,7 @@ z-index: 1;
  }
  .contact__form{
   width: 100%;
+  
  }
 
 }
