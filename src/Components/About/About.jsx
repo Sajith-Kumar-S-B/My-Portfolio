@@ -12,6 +12,8 @@ import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
 import profilePic from "../../assets/1686751425573-01.jpeg";
+import resume from "../../assets/Resume/Sajith Kumar S B (4).pdf";
+
 import { Projects } from "../Projects/Projects";
 // import Button from "@mui/material/Button";
 export const About = () => {
@@ -82,7 +84,7 @@ export const About = () => {
           className="btnResume"
           onClick={() => {
             window.open(
-              ""
+              `${resume}`
             );
           }}
         >
